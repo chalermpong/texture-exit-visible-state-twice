@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AsyncDisplayKit
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openTableView(_ sender: Any) {
+        let vc = MyASTableVC()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
