@@ -1,5 +1,7 @@
 # ASCellNode didExitVisibleState is called twice when transition to another view controller
 
+Ref: [https://github.com/TextureGroup/Texture/issues/1808](https://github.com/TextureGroup/Texture/issues/1808)
+
 1. Run the project in XCode and iOS simulator
 2. Click "Open Texture TableView"
 3. Click on any cell on the next screen
